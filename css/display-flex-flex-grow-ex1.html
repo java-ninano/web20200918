@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        #div1{
+         background-color: blueviolet;
+         text-align: right;
+         font-size: 50px;
+         width: 500px;
+         height: 200px;
+         /*flex :1;  0+알파*/
+         flex-grow: 1;
+          /* (기본값 : 0.1.auto =flex 값을 아무것도 지정하지 않았을 경우, flex-grow :1로 지정하면 flex-basis:(1.0.0)으로 저장)빈공간 차지여부*,
+         flex-basis:auto; /*공간 500+알파 default */
+
+        }
+        #div2{
+            background-color: brown;
+            width: 300px;
+            height: 100px;
+            flex-grow: 1; /*남은공간안에서의 1:1크기*/
+        }
+        #div3{
+            background-color: burlywood;
+            width: 100px;
+            flex: 2; /*flwx-grow=flex*/
+            
+        }
+        #div4{
+            background-color: chocolate;
+            width: 150px;
+           
+        }
+        #div5{
+            background-color: cornflowerblue;
+            width: 100px;
+        }
+        .container{
+            display: flex; /*위아래 모두 차지하고 오른쪽방향으로 정렬*/
+            height: 500px;
+            
+
+            
+        }
+    </style>
+
+
+    
+</head>
+<body> 
+
+<div class="container">
+    <div id="div1">1</div>
+    <div id="div2">2</div>
+    <div id="div3">3</div>
+    <div id="div4">4</div>
+    <div id="div5">5</div>
+</div>
+
+
+
+
+</body>
+</html>

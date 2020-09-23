@@ -3,16 +3,28 @@
 <head>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style>
+        .flex-container{
+            display: flex;
+            background-color: blueviolet;
+        }
+        .flex-container>div{
+            background-color: burlywood;
+            font-size: 30px;
+            margin :10px; /* margin : 글자끼리의 간격 */
+            padding: 20px; 
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-   <h2> 오늘의 로또 번호입니다.</h2>
-   <p id="what"></p>
-   
-    <button onclick="document.getElementById("what").innerHTML =Date()">Click ME!</button>
+   <div class="flex-container">
+    <div>기대</div>
+    <div>희망</div>
+    <div>자랑</div>
 
-    <P id="what"></P>
 
+
+   </div>
 
 
 </body>

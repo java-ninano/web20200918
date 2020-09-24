@@ -3,29 +3,22 @@
 <head>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style>
-        .flex-container{
-            display: flex;
-            background-color: blueviolet;
-        }
-        .flex-container>div{
-            background-color: burlywood;
-            font-size: 30px;
-            margin :10px; /* margin : 글자끼리의 간격 */
-            padding: 20px; 
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
-   <div class="flex-container">
-    <div>기대</div>
-    <div>희망</div>
-    <div>자랑</div>
+    <script>
+        var bts=["김석진","박지민","김태형","민윤기","김남준","정호석","전정국"];
+        
+        console.log("-----for-----");
+        for(var i =0; i<7; i++){
+            console.log(bts[i]);
+        }
 
-
-
-   </div>
-
-
+        var i =0;
+        while(i<10){
+            console.log("카운터 : "+ i +"<br/>");
+            i++;
+        }
+    </script>
 </body>
 </html>

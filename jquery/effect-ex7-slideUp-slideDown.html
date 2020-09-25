@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            .MAIN{
+                border : 2px solid black;
+              
+            }
+           
+        </style>
+        <script>
+            $(document).ready(function(){
+                 $(document).ready(function(){
+            $(".main").click(function(){
+                $(".sub").slideDown();
+            });
+            $(".main").click(function(){
+                $(".sub").slideUp();
+            });
+        });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            MAIN <i class="fas fa-caret-down"></i>
+            <div class="sub">
+                <div class="sub-item">Lorem ipsum dolor sit amet...</div>
+                <div class="sub-item">Omnis fugit nam id voluptatibus.</div>
+                <div class="sub-item">Lorem,Tenetur officiis voluptatibus excepturi blanditiis</div>
+            </div>
+        </div>
+
+       
+       
+    
+    
+    </body>
+    </html>

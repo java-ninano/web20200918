@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        table{
+            border :1px solid black;
+            width: :100%;
+            border-collapse :collapse;
+
+        }
+        td{
+            border :1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Lorem.</td>
+            <td>Sequi?</td>
+            <td>Doloremque!</td>
+            <td>Quo!</td>
+            <td>Ab!</td>
+            <td>Dolorum!</td>
+        </tr>
+        <tr>
+            <td>Necessitatibus.</td>
+            <td>Odit.</td>
+            <td>Aspernatur?</td>
+            <td>Aliquam.</td>
+            <td>Mollitia.</td>
+            <td>Harum.</td>
+        </tr>
+        <tr>
+            <td>Accusantium!</td>
+            <td>Beatae!</td>
+            <td>Distinctio!</td>
+            <td>Aliquam?</td>
+            <td>Nobis!</td>
+            <td>Dolorum!</td>
+        </tr>
+        <tr>
+            <td>Dolor.</td>
+            <td>Vitae.</td>
+            <td>Autem.</td>
+            <td>Facere.</td>
+            <td>Assumenda.</td>
+            <td>Hic.</td>
+        </tr>
+        <tr>
+            <td>Voluptates!</td>
+            <td>Eius?</td>
+            <td>Dolore?</td>
+            <td>Praesentium?</td>
+            <td>Dolores!</td>
+            <td>Harum!</td>
+        </tr>
+    </table>
+    <script>
+         $("tr:odd").hide(); 
+         // odd : 집합의 홀수 요소로 줄입니다.숫자의 시작은 o부터 시작
+        // "tr:odd" == "tr:nth-child(2n)"
+         $("tr:nth-child(2n)").hide(); 
+    </script>
+</body>
+</html>

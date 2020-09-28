@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+    </style>
+    <script>
+        $(document).ready(function(){
+            var t=$("#head1").text();
+            //Use a jQuery method to return the text content of a <div> element.
+            var h=$("#head1").html();
+            //Use a jQuery method to return the HTML content of a <div> element.
+
+            console.log(t);
+            console.log(h);
+
+            var v =$("#input1").val();
+            //Use a jQuery method to return the value of an input field.
+            console.log(v);
+
+            $("#input1").keyup(function(){
+                var val=$(this).val();
+            console.log(val);      
+            // 값을 입력할때 변하는 정보를 console에 보여줌      
+        })
+        });
+    </script>
+</head>
+<body>
+<h1 id="head1">Lorem, <span>ipsum </span>dolor.</h1>
+<h1 id="head2">Ullam, <span>officia</span> nobis.</h1>
+<h1 id="head3">Autem, vitae eveniet?</h1>
+
+<input type="text" id="input1" value="korea"><!--value : 초기값-->
+ 
+
+
+
+
+
+
+
+
+</body>
+</html>
